@@ -102,4 +102,19 @@ faster and more reliable.
 
 ## How to Run Locally
 
-1. Clone the repository:
+**1. Clone the repository:**
+
+    git clone https://github.com/dprieto-robles/border-aid-assistant.git
+    cd border-aid-assistant
+
+**2. Install dependencies:**
+
+    pip install -r requirements.txt
+
+**3. Set your Groq API key as an environment variable:**
+
+    export GROQ_API_KEY="your_key_here"
+
+**4. Run the app:**
+
+    python app.py
